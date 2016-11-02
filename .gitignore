@@ -91,5 +91,3 @@ ENV/
 # IDEA
 .idea/
 
-# Docker env file
-.env
