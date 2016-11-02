@@ -1,0 +1,3 @@
+aiohttp
+aiotg
+python-telegram-bot
