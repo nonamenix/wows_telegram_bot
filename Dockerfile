@@ -16,4 +16,6 @@ ADD $BOT_LOCAL_SRC $BOT_SRC
 
 RUN pip3 install -r requirements.txt
 
+HEALTHCHECK --interval=30s --timeout=3s CMD true  # need for condo
+
 CMD [ "python3", "./main.py" ]
